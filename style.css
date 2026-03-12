@@ -1,0 +1,17 @@
+/* 
+Removes default browser margin and hides scrollbars
+so the animation fills the whole screen.
+*/
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+}
+
+/* 
+Makes the canvas behave like a block element so it
+fills the screen properly.
+*/
+canvas {
+  display: block;
+}
